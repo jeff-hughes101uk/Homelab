@@ -1,12 +1,12 @@
 Homelab
 =======
-1. Add a few more applications to stage 1 - dozzle, homepage, pi-hole and file explorer (don't forget to remove them from their original stage docker compose file)
-2. Rename the portainer network names to something better:  Stage 1 apps to be in network called proxy
-3. Setup full name address for vaultwarden and portainer in Pi-Hole (maybe also update docker compose file
-4.Look at JimsGarage watchtower docker compose file for gotify reporting and rest of the environment variables - https://github.com/JamesTurland/JimsGarage/blob/main/Watchtower/docker-compose.yaml (lines 13-34)
+1. Add a few more applications to stage 1 - dozzle, homepage, pi-hole and file explorer (don't forget to remove them from their original stage docker compose file) - COMPLETE
+2. Rename the portainer network names to something better:  Stage 1 apps to be in network called proxy - COMPLETE
+3. Setup full name address for vaultwarden and portainer in Pi-Hole (maybe also update docker compose file - COMPLETE
+4. Look at JimsGarage watchtower docker compose file for gotify reporting and rest of the environment variables - https://github.com/JamesTurland/JimsGarage/blob/main/Watchtower/docker-compose.yaml (lines 13-34) - COMPLETE
 5. JimsGarage video about setting up Rclone - https://github.com/JamesTurland/JimsGarage/tree/main/rClone and Restic - https://github.com/JamesTurland/JimsGarage/blob/main/restic. Will need to create a new directory on NAS called backup and create a share and mount point on Proxmox
 6. Add traefik proxmox rule to traefik - removes SSL error - go to https://github.com/SimpleHomelab/Docker-Traefik/tree/master/appdata/traefik3/rules/hs also need to include chain-no-auth.ymlin the same folder
-7. Set up vaultwarden - see saved JimsGarage youtube video
+7. Set up vaultwarden - see saved JimsGarage youtube video - COMPLETE
 8. Config Jellyfin properly - use best video on youtube
 9. Is there an open source antivirus application?
 10. Look at .....arr-exporter.yaml docker compose files - https://github.com/SimpleHomelab/Docker-Traefik/tree/master/compose/hs. What would be the benefit of this?
