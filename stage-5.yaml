@@ -1,0 +1,3 @@
+# stage 5 containers (home automation) to be created - Mosquitto, Grafana, node-red 
+
+services:
