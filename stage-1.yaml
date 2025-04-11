@@ -1,4 +1,4 @@
-#docker compose code to install portianer, homepage, watchtower and file explorer containers
+# Stage 1 containers to install - portianer, homepage, watchtower, dozzle and file explorer containers
 
 services:
 
@@ -77,7 +77,11 @@ services:
 
 # enter compose details here
 
+###############################################################################################################
+# Dozzle
+###############################################################################################################
 
+# enter compose details here
 
 
 
