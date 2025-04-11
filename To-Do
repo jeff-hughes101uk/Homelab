@@ -1,6 +1,9 @@
-1. Setup full name address for vaultwarden and portainer in Pi-Hole
-2. Add traefik proxmox rule to traefik - removes SSL error - go to https://github.com/SimpleHomelab/Docker-Traefik/tree/master/appdata/traefik3/rules/hs also need to include chain-no-auth.yml
-3. JimsGarage video about setting up Rclone and Restic.  Will need to create a new directory on NAS called backup and create a share and mount point on Proxmox
+Homelab
+
+1. Setup full name address for vaultwarden and portainer in Pi-Hole (maybe also update docker compose file
+2. Add traefik proxmox rule to traefik - removes SSL error - go to https://github.com/SimpleHomelab/Docker-Traefik/tree/master/appdata/traefik3/rules/hs also need to include chain-no-auth.ymlin the same folder
+3. JimsGarage video about setting up Rclone - https://github.com/JamesTurland/JimsGarage/tree/main/rClone and Restic - https://github.com/JamesTurland/JimsGarage/blob/main/restic. Will need to 
+   create a new directory on NAS called backup and create a share and mount point on Proxmox
 4. Rename the protainer network names to something better:  Stage 1 apps to be in network called proxy
 5. add a few more applications to stage 1 - dozzle, homepage pi-hole
 6. Set up vaultwarden - see saved JimsGarage video
@@ -11,3 +14,16 @@
 11. Watch Linkwarden video - JimsGarage
 12. look at Terraform and Paperless-ngx apps
 13. Look at JimsGarage watchtower docker compose file for gotify reporting and rest of the environment variables - https://github.com/JamesTurland/JimsGarage/blob/main/Watchtower/docker-compose.yaml (lines 13-34)
+14. Consider using .env file for Homepage (will make it easier to update) - see https://technotim.live/posts/homepage-dashboard/
+
+Fencing
+1. Clear out old fencing
+2. Dig out old fence posts
+3. Dig, fit and cement end post
+4. tie rope from this post to other post (to ensure panel will be in a straight line)
+5. dig hole, install and cement next post
+6. Rinse and repeat
+
+Other
+1. buy pp9 battery for moisture meter
+2. Configure power reading plug and measure power usage of dell server
