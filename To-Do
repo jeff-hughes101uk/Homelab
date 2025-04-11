@@ -1,0 +1,13 @@
+1. Setup full name address for vaultwarden and portainer in Pi-Hole
+2. Add traefik proxmox rule to traefik - removes SSL error - go to https://github.com/SimpleHomelab/Docker-Traefik/tree/master/appdata/traefik3/rules/hs also need to include chain-no-auth.yml
+3. JimsGarage video about setting up Rclone and Restic.  Will need to create a new directory on NAS called backup and create a share and mount point on Proxmox
+4. Rename the protainer network names to something better:  Stage 1 apps to be in network called proxy
+5. add a few more applications to stage 1 - dozzle, homepage pi-hole
+6. Set up vaultwarden - see saved JimsGarage video
+7. Config Jellyfin properly
+8. Is there an open source AV application?
+9. Look at .....arr-exporter.yaml docker compose files - https://github.com/SimpleHomelab/Docker-Traefik/tree/master/compose/hs
+10. You can uto download addons into Grafana - see https://github.com/SimpleHomelab/Docker-Traefik/blob/master/compose/hs/grafana.yml line 18
+11. Watch Linkwarden video - JimsGarage
+12. look at Terraform and Paperless-ngx apps
+13. Look at JimsGarage watchtower docker compose file for gotify reporting and rest of the environment variables - https://github.com/JamesTurland/JimsGarage/blob/main/Watchtower/docker-compose.yaml (lines 13-34)
