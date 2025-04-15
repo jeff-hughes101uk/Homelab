@@ -1,12 +1,8 @@
 Homelab
 =======
 5. JimsGarage video about setting up Rclone - https://github.com/JamesTurland/JimsGarage/tree/main/rClone
-5a Restic - https://github.com/JamesTurland/JimsGarage/blob/main/restic. - installed unsure if this is working
-5b Create a new directory on NAS called backup and create a share and mount point on Proxmox - Complete
 6. Add traefik proxmox rule to traefik - removes SSL error - go to https://github.com/SimpleHomelab/Docker-Traefik/tree/master/appdata/traefik3/rules/hs also need to include chain-no-auth.ymlin the same folder
-8. Config Jellyfin properly - use best video on youtube
 9. Is there an open source antivirus application?
-10. Look at .....arr-exporter.yaml docker compose files - https://github.com/SimpleHomelab/Docker-Traefik/tree/master/compose/hs. What would be the benefit of this?
 11. You can auto download addons into Grafana - see https://github.com/SimpleHomelab/Docker-Traefik/blob/master/compose/hs/grafana.yml line 18
 12. Watch Linkwarden video - JimsGarage.  Do I need this application????
 13. look at Terraform and Paperless-ngx apps
@@ -16,7 +12,3 @@ Fencing
 6. Rinse and repeat with panels and posts
 7. take old fence wood to the tip on Sunday (4pm booking)
 
-Other
-=====
-
-3. Amazon order - https://www.amazon.co.uk/Crucial-Internal-Desktop-Compatible-Acceleration/dp/B0CY37V52M/ref=sr_1_15?dib=eyJ2IjoiMSJ9.dgcFPAQQIR_YcHPCvYZLivpZiBxpYttp0cyhGYaDl25rCitK0hi2-nUcr6RTd7xDn0-dTD5DazPrpQknlkrcG1ztlKlsvSGI4MlQtMbfhbx83nfTgZ3PfHyAbljP8w5ZM87ubw4ZjB2oEON_eXr23Shy_nu8AxT5cQOqpEe69w6q64i885kmJcnIaeLeR-_Is2uRwHVL9VrWfd2odd5bwd9mYsDrV8afc3eFUqLEcLLzPFL5AvZHkm5wCLDbDCGe2xaQCqM_W3WzQGoLCvcJaQQJxNCjp6rCYDtBNknSi-Q.LfawktOMZDI6vrln9_VAhTBw4HN5HjW0bbfAdGdyeSg&dib_tag=se&keywords=4tb%2Bssd&qid=1744379278&s=computers&sr=1-15&th=1
